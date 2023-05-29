@@ -27,7 +27,9 @@ document.getElementById('deposit-button').addEventListener('click',function(){
     depositeInput.value = '';
 }
 else{
-    alert('Something Is Wrong.Please Check Again')
+    alert('Something Is Wrong.Please Check Again');
+    depositeInput.value = '';
+
 }
 })
 
@@ -61,7 +63,9 @@ document.getElementById('withdraw-input').value = '';
 
 }
 else{
-    alert('Something Is Wrong.Please Check Again')
+    alert('Something Is Wrong.Please Check Again');
+document.getElementById('withdraw-input').value = '';    
+
 }
 })
 
